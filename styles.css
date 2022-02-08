@@ -6,4 +6,13 @@ body {
 .test {
   background-color: black;
 }
+
+main .eq-in-action {
+  background-color: black;
+}
+
+main .eq-in-action img {
+  width: 208.97px;
+  height: 430px;
+}
 /*# sourceMappingURL=styles.css.map */
