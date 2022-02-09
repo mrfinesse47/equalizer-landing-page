@@ -1,6 +1,10 @@
 body,
 h1,
+h2,
 p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -35,12 +39,6 @@ header h1 {
   margin-bottom: 20px;
 }
 
-header p {
-  font-size: 1rem;
-  line-height: 1.625rem;
-  font-weight: 400;
-}
-
 main {
   border-radius: 12px;
 }
@@ -68,9 +66,22 @@ aside {
   background-color: #fa7453;
   position: absolute;
   top: 1002px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+aside .premium-container {
+  margin: 0 auto;
+  width: 302px;
 }
 
 aside h2 {
   font-size: 2rem;
+  margin: 48px 0px 12px;
+}
+
+footer {
+  position: absolute;
+  top: 1377px;
 }
 /*# sourceMappingURL=styles.css.map */

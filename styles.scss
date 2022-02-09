@@ -1,7 +1,11 @@
 @import "./variables.scss";
 body,
 h1,
+h2,
 p {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
   margin: 0;
 }
 
@@ -32,11 +36,7 @@ header {
     font-weight: 700;
     margin-bottom: 20px;
   }
-  p {
-    font-size: 1rem;
-    line-height: 1.625rem;
-    font-weight: 400;
-  }
+
   margin-bottom: 166px;
 }
 
@@ -67,7 +67,19 @@ aside {
   background-color: #fa7453;
   position: absolute;
   top: 1002px;
+  margin: 0 auto;
+  width: 100%;
+  .premium-container {
+    margin: 0 auto;
+    width: 302px;
+  }
   h2 {
     font-size: 2rem;
+    margin: 48px 0px 12px;
   }
+}
+
+footer {
+  position: absolute;
+  top: 1377px;
 }
