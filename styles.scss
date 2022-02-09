@@ -27,7 +27,7 @@ header {
 
   .logo {
     margin: 40px 0 64px;
-    width: 146.09px;
+    width: 136px;
     height: 32px;
   }
   h1 {
@@ -37,13 +37,13 @@ header {
     margin-bottom: 20px;
   }
 
-  margin-bottom: 166px;
+  margin-bottom: 146px;
 }
 
 main {
   border-radius: 12px;
   .eq-in-action {
-    background-color: black;
+    background-color: $main-black;
     background-image: url("./assets/bg-pattern-2.svg");
     background-size: 280px 420px;
     background-position: left 48px top 0px;
@@ -66,7 +66,7 @@ aside {
   border-radius: 12px;
   background-color: #fa7453;
   position: absolute;
-  top: 1002px;
+  top: 1003px;
   margin: 0 auto;
   width: 100%;
 
@@ -83,17 +83,47 @@ aside {
   .price {
     display: flex;
     flex-direction: row;
-    margin: 36px 0;
+    margin: 36px 8px;
 
     .dollar-amount {
       display: block;
       font-size: 4.0625rem;
       font-weight: 700;
+      margin-right: 16px;
+    }
+    .duration {
+      font-size: 1.25rem;
+    }
+  }
+  .platforms {
+    display: flex;
+    flex-direction: column;
+
+    .button {
+      width: 18.5rem;
+      height: 3.8125rem;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .icon {
+        margin-right: 0.495rem;
+      }
+    }
+
+    .button-android {
+      background-color: $off-white;
+      color: $main-black;
+    }
+
+    .button-apple {
+      background-color: $main-black;
+      color: $off-white;
     }
   }
 }
 
 footer {
   position: absolute;
-  top: 1377px;
+  top: 1548px;
 }

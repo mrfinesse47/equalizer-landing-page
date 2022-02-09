@@ -23,12 +23,12 @@ body .container {
 header {
   width: 327px;
   margin: 0 auto;
-  margin-bottom: 166px;
+  margin-bottom: 146px;
 }
 
 header .logo {
   margin: 40px 0 64px;
-  width: 146.09px;
+  width: 136px;
   height: 32px;
 }
 
@@ -44,7 +44,7 @@ main {
 }
 
 main .eq-in-action {
-  background-color: black;
+  background-color: #191826;
   background-image: url("./assets/bg-pattern-2.svg");
   background-size: 280px 420px;
   background-position: left 48px top 0px;
@@ -65,7 +65,7 @@ aside {
   border-radius: 12px;
   background-color: #fa7453;
   position: absolute;
-  top: 1002px;
+  top: 1003px;
   margin: 0 auto;
   width: 100%;
 }
@@ -90,17 +90,61 @@ aside .price {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin: 36px 0;
+  margin: 36px 8px;
 }
 
 aside .price .dollar-amount {
   display: block;
   font-size: 4.0625rem;
   font-weight: 700;
+  margin-right: 16px;
+}
+
+aside .price .duration {
+  font-size: 1.25rem;
+}
+
+aside .platforms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+aside .platforms .button {
+  width: 18.5rem;
+  height: 3.8125rem;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+aside .platforms .button .icon {
+  margin-right: 0.495rem;
+}
+
+aside .platforms .button-android {
+  background-color: #fcfaf9;
+  color: #191826;
+}
+
+aside .platforms .button-apple {
+  background-color: #191826;
+  color: #fcfaf9;
 }
 
 footer {
   position: absolute;
-  top: 1377px;
+  top: 1548px;
 }
 /*# sourceMappingURL=styles.css.map */
