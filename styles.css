@@ -63,9 +63,14 @@ main .eq-in-action .img-container img {
 }
 
 aside {
+  color: #fcfaf9;
   border-radius: 12px;
   background-color: #fa7453;
   position: absolute;
   top: 1002px;
+}
+
+aside h2 {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=styles.css.map */

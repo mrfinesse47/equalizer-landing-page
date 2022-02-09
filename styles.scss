@@ -1,3 +1,4 @@
+@import "./variables.scss";
 body,
 h1,
 p {
@@ -61,8 +62,12 @@ main {
 }
 
 aside {
+  color: $off-white;
   border-radius: 12px;
   background-color: #fa7453;
   position: absolute;
   top: 1002px;
+  h2 {
+    font-size: 2rem;
+  }
 }
