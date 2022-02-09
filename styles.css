@@ -12,9 +12,14 @@ body {
   background-repeat: no-repeat;
 }
 
+body .container {
+  width: 375px;
+}
+
 header {
   width: 327px;
   margin: 0 auto;
+  margin-bottom: 166px;
 }
 
 header .logo {
@@ -33,16 +38,34 @@ header h1 {
 header p {
   font-size: 1rem;
   line-height: 1.625rem;
-  margin-bottom: 68px;
   font-weight: 400;
+}
+
+main {
+  border-radius: 12px;
 }
 
 main .eq-in-action {
   background-color: black;
+  background-image: url("./assets/bg-pattern-2.svg");
+  background-size: 280px 420px;
+  background-position: left 48px top 0px;
+  background-repeat: no-repeat;
+  height: 622px;
 }
 
-main .eq-in-action img {
+main .eq-in-action .img-container img {
+  position: relative;
+  left: 80.67px;
+  top: -98px;
   width: 208.97px;
   height: 430px;
+}
+
+aside {
+  border-radius: 12px;
+  background-color: #fa7453;
+  position: absolute;
+  top: 1002px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -11,11 +11,15 @@ body {
   background-image: url("./assets/bg-main-mobile.png");
   background-position: left 15px top -240px;
   background-repeat: no-repeat;
+  .container {
+    width: 375px; //mobile
+  }
 }
 
 header {
   width: 327px;
   margin: 0 auto;
+
   .logo {
     margin: 40px 0 64px;
     width: 146.09px;
@@ -30,17 +34,35 @@ header {
   p {
     font-size: 1rem;
     line-height: 1.625rem;
-    margin-bottom: 68px;
     font-weight: 400;
   }
+  margin-bottom: 166px;
 }
 
 main {
+  border-radius: 12px;
   .eq-in-action {
     background-color: black;
-    img {
-      width: 208.97px;
-      height: 430px;
+    background-image: url("./assets/bg-pattern-2.svg");
+    background-size: 280px 420px;
+    background-position: left 48px top 0px;
+    background-repeat: no-repeat;
+    height: 622px;
+    .img-container {
+      img {
+        position: relative;
+        left: 80.67px;
+        top: -98px;
+        width: 208.97px;
+        height: 430px;
+      }
     }
   }
+}
+
+aside {
+  border-radius: 12px;
+  background-color: #fa7453;
+  position: absolute;
+  top: 1002px;
 }
