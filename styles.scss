@@ -24,6 +24,7 @@ body {
 header {
   width: 327px;
   margin: 0 auto;
+  color: $main-black;
 
   .logo {
     margin: 40px 0 64px;
@@ -126,6 +127,7 @@ aside {
 
 footer {
   position: absolute;
+  color: $main-black;
   margin: 0px 24px;
   top: 1548px;
   .logo {

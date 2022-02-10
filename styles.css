@@ -23,6 +23,7 @@ body .container {
 header {
   width: 327px;
   margin: 0 auto;
+  color: #191826;
   margin-bottom: 146px;
 }
 
@@ -146,6 +147,7 @@ aside .platforms .button-apple {
 
 footer {
   position: absolute;
+  color: #191826;
   margin: 0px 24px;
   top: 1548px;
 }
