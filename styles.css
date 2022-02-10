@@ -71,7 +71,6 @@ aside {
 }
 
 aside h2 {
-  display: block;
   font-size: 2rem;
   font-weight: 700;
   margin: 48px 0px 12px;
@@ -91,10 +90,10 @@ aside .price {
       -ms-flex-direction: row;
           flex-direction: row;
   margin: 36px 8px;
+  padding: 0.9rem 0;
 }
 
 aside .price .dollar-amount {
-  display: block;
   font-size: 4.0625rem;
   font-weight: 700;
   margin-right: 16px;
@@ -136,15 +135,26 @@ aside .platforms .button .icon {
 aside .platforms .button-android {
   background-color: #fcfaf9;
   color: #191826;
+  margin-bottom: 48px;
 }
 
 aside .platforms .button-apple {
   background-color: #191826;
   color: #fcfaf9;
+  margin-bottom: 16px;
 }
 
 footer {
   position: absolute;
+  margin: 0px 24px;
   top: 1548px;
+}
+
+footer .logo {
+  margin: 64px 0 32px;
+}
+
+footer .email {
+  font-weight: 700;
 }
 /*# sourceMappingURL=styles.css.map */

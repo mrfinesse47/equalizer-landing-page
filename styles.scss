@@ -71,7 +71,6 @@ aside {
   width: 100%;
 
   h2 {
-    display: block;
     font-size: 2rem;
     font-weight: 700;
     margin: 48px 0px 12px;
@@ -84,9 +83,9 @@ aside {
     display: flex;
     flex-direction: row;
     margin: 36px 8px;
+    padding: 0.9rem 0;
 
     .dollar-amount {
-      display: block;
       font-size: 4.0625rem;
       font-weight: 700;
       margin-right: 16px;
@@ -114,16 +113,25 @@ aside {
     .button-android {
       background-color: $off-white;
       color: $main-black;
+      margin-bottom: 48px;
     }
 
     .button-apple {
       background-color: $main-black;
       color: $off-white;
+      margin-bottom: 16px;
     }
   }
 }
 
 footer {
   position: absolute;
+  margin: 0px 24px;
   top: 1548px;
+  .logo {
+    margin: 64px 0 32px;
+  }
+  .email {
+    font-weight: 700;
+  }
 }
