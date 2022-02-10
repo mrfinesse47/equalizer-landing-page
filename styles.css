@@ -157,4 +157,13 @@ footer .logo {
 footer .email {
   font-weight: 700;
 }
+
+footer .social {
+  margin-top: 64px;
+  margin-bottom: 80px;
+}
+
+footer .social img {
+  margin-right: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
