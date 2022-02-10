@@ -18,6 +18,8 @@ body {
   background-repeat: no-repeat;
   .container {
     width: 375px; //mobile
+    margin: 0 auto;
+    //does not work for absolute positioning
   }
 }
 
@@ -69,7 +71,7 @@ aside {
   position: absolute;
   top: 1003px;
   margin: 0 auto;
-  width: 100%;
+  width: 375px;
 
   h2 {
     font-size: 2rem;
@@ -130,6 +132,7 @@ footer {
   color: $main-black;
   margin: 0px 24px;
   top: 1548px;
+  width: 327px;
   .logo {
     margin: 64px 0 32px;
   }
