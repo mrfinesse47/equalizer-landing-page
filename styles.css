@@ -45,6 +45,12 @@ header h1 {
   margin-bottom: 20px;
 }
 
+@media only screen and (min-width: 767px) {
+  header .bg-image-container {
+    display: unset;
+  }
+}
+
 main {
   border-radius: 12px;
 }

@@ -1,4 +1,5 @@
 @import "./variables.scss";
+@import "./media-queries.scss";
 body,
 h1,
 h2,
@@ -45,6 +46,12 @@ header {
   }
 
   margin-bottom: 146px;
+
+  @include tablet {
+    .bg-image-container {
+      display: unset; //makes it visible again
+    }
+  }
 }
 
 main {
