@@ -21,6 +21,16 @@ body .container {
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 767px) and (max-width: 899px) {
+  body {
+    background-image: url("./assets/bg-main-tablet.png");
+    background-position: left -330px top -200px;
+  }
+  body .container {
+    width: 768px;
+  }
+}
+
 header {
   width: 327px;
   margin: 0 auto;
@@ -45,9 +55,16 @@ header h1 {
   margin-bottom: 20px;
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 767px) and (max-width: 899px) {
   header .bg-image-container {
     display: unset;
+    position: absolute;
+    left: 537px;
+    top: -32px;
+  }
+  header .bg-image-container img {
+    width: 266.67px;
+    height: 400px;
   }
 }
 
