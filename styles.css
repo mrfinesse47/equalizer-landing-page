@@ -28,6 +28,10 @@ header {
   margin-bottom: 146px;
 }
 
+header .bg-image-container {
+  display: none;
+}
+
 header .logo {
   margin: 40px 0 64px;
   width: 136px;

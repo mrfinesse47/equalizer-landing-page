@@ -28,6 +28,10 @@ header {
   margin: 0 auto;
   color: $main-black;
 
+  .bg-image-container {
+    display: none;
+  }
+
   .logo {
     margin: 40px 0 64px;
     width: 136px;
