@@ -14,6 +14,7 @@ h2,
 p {
   font-size: 1rem;
   line-height: 1.75rem;
+  color: $main-black;
   @include tablet {
     font-size: 1.125rem;
   }
@@ -73,6 +74,7 @@ header {
   @include tablet {
     width: 514px;
     margin-left: 39px;
+    margin-bottom: 207px;
 
     h1 {
       font-size: 4rem;
@@ -95,8 +97,12 @@ main {
     background-image: url("./assets/bg-pattern-2.svg");
     background-size: 280px 420px;
     background-position: left 48px top 0px;
+
     background-repeat: no-repeat;
     height: 622px;
+    @include tablet {
+      background-position: left 168px top -35px;
+    }
     .img-container {
       img {
         position: relative;
@@ -104,6 +110,9 @@ main {
         top: -98px;
         width: 208.97px;
         height: 430px;
+        @include tablet {
+          left: 68px;
+        }
       }
     }
   }

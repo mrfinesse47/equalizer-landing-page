@@ -3,6 +3,7 @@ h2,
 p {
   font-size: 1rem;
   line-height: 1.75rem;
+  color: #191826;
   font-weight: 400;
   margin: 0;
 }
@@ -69,6 +70,7 @@ header h1 {
   header {
     width: 514px;
     margin-left: 39px;
+    margin-bottom: 207px;
   }
   header h1 {
     font-size: 4rem;
@@ -95,12 +97,24 @@ main .eq-in-action {
   height: 622px;
 }
 
+@media only screen and (min-width: 767px) and (max-width: 899px) {
+  main .eq-in-action {
+    background-position: left 168px top -35px;
+  }
+}
+
 main .eq-in-action .img-container img {
   position: relative;
   left: 80.67px;
   top: -98px;
   width: 208.97px;
   height: 430px;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 899px) {
+  main .eq-in-action .img-container img {
+    left: 68px;
+  }
 }
 
 aside {
