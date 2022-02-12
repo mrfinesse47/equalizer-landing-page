@@ -3,7 +3,6 @@ h2,
 p {
   font-size: 1rem;
   line-height: 1.75rem;
-  color: #191826;
   font-weight: 400;
   margin: 0;
 }
@@ -19,6 +18,7 @@ p {
 body {
   font-family: "IBM Plex Sans", sans-serif;
   background-color: #f2f2f2;
+  margin: 0;
   background-image: url("./assets/bg-main-mobile.png");
   background-position: left 15px top -240px;
   background-repeat: no-repeat;
@@ -88,6 +88,12 @@ main {
   border-radius: 12px;
 }
 
+@media only screen and (min-width: 767px) and (max-width: 899px) {
+  main {
+    margin: 0px 33px;
+  }
+}
+
 main .eq-in-action {
   background-color: #191826;
   background-image: url("./assets/bg-pattern-2.svg");
@@ -113,6 +119,8 @@ main .eq-in-action .img-container img {
 
 @media only screen and (min-width: 767px) and (max-width: 899px) {
   main .eq-in-action .img-container img {
+    width: 270.21px;
+    height: 556px;
     left: 68px;
   }
 }
@@ -123,8 +131,14 @@ aside {
   background-color: #fa7453;
   position: absolute;
   top: 1003px;
-  margin: 0 auto;
   width: 375px;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 899px) {
+  aside {
+    top: 920px;
+    left: 35.41%;
+  }
 }
 
 aside h2 {
@@ -205,8 +219,27 @@ footer {
   position: absolute;
   color: #191826;
   margin: 0px 24px;
-  top: 1548px;
+  top: 1500px;
   width: 327px;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 899px) {
+  footer {
+    width: 90.625%;
+    margin: 0 4.68%;
+  }
+  footer .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 footer .logo {
@@ -224,5 +257,24 @@ footer .social {
 
 footer .social img {
   margin-right: 20px;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 899px) {
+  footer .contact {
+    width: 366px;
+  }
+  footer .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  footer .social img {
+    width: 20px;
+    height: 20px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

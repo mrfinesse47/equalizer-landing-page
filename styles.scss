@@ -14,7 +14,7 @@ h2,
 p {
   font-size: 1rem;
   line-height: 1.75rem;
-  color: $main-black;
+
   @include tablet {
     font-size: 1.125rem;
   }
@@ -25,6 +25,7 @@ p {
 body {
   font-family: "IBM Plex Sans", sans-serif;
   background-color: #f2f2f2;
+  margin: 0;
 
   background-image: url("./assets/bg-main-mobile.png");
   background-position: left 15px top -240px;
@@ -92,6 +93,9 @@ header {
 main {
   margin: 0 auto;
   border-radius: 12px;
+  @include tablet {
+    margin: 0px 33px;
+  }
   .eq-in-action {
     background-color: $main-black;
     background-image: url("./assets/bg-pattern-2.svg");
@@ -111,6 +115,8 @@ main {
         width: 208.97px;
         height: 430px;
         @include tablet {
+          width: 270.21px;
+          height: 556px;
           left: 68px;
         }
       }
@@ -123,9 +129,13 @@ aside {
   border-radius: 12px;
   background-color: #fa7453;
   position: absolute;
+  //  margin: 0 auto;
   top: 1003px;
-  margin: 0 auto;
   width: 375px;
+  @include tablet {
+    top: 920px;
+    left: 35.41%;
+  }
 
   h2 {
     font-size: 2rem;
@@ -185,8 +195,17 @@ footer {
   position: absolute;
   color: $main-black;
   margin: 0px 24px;
-  top: 1548px;
+  top: 1500px;
   width: 327px;
+  @include tablet {
+    width: 90.625%;
+    margin: 0 4.68%;
+    .footer-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
   .logo {
     margin: 64px 0 32px;
   }
@@ -198,6 +217,21 @@ footer {
     margin-bottom: 80px;
     img {
       margin-right: 20px;
+    }
+  }
+  @include tablet {
+    .contact {
+      width: 366px;
+    }
+    .social {
+      display: flex;
+      align-items: center;
+
+      margin: 0;
+      img {
+        width: 20px;
+        height: 20px;
+      }
     }
   }
 }
