@@ -1,6 +1,14 @@
 @import "./variables.scss";
 @import "./media-queries.scss";
-body,
+
+//may have to take a multiple background image approach see
+//#example1 {
+//   background-image: url(img_flwr.gif), url(paper.gif);
+//   background-position: right bottom, left top;
+//   background-repeat: no-repeat, repeat;
+// }
+//https://www.w3schools.com/Css/css3_backgrounds.asp
+//didnt know you could have more than one
 h1,
 h2,
 p {
@@ -28,8 +36,10 @@ body {
       margin: 0 auto;
     }
 
-    background-image: url("./assets/bg-main-tablet.png");
-    background-position: left -330px top -200px;
+    background-image: url("/assets/bg-pattern-1.svg"),
+      url("./assets/bg-main-tablet.png");
+    background-position: left 500px top -32px, left -330px top -200px;
+    background-repeat: no-repeat, no-repeat;
   }
 }
 
@@ -64,19 +74,6 @@ header {
       font-size: 4rem;
       line-height: 4rem;
       margin-bottom: 28px;
-    }
-
-    .bg-image-container {
-      display: unset; //makes it visible again
-      position: absolute;
-
-      left: 537px;
-      top: -32px;
-      img {
-        width: 266.67px;
-        height: 400px;
-        overflow: hidden;
-      }
     }
 
     .logo {
