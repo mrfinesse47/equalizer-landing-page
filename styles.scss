@@ -25,6 +25,7 @@ body {
   @include tablet {
     .container {
       width: 768px;
+      margin: 0 auto;
     }
 
     background-image: url("./assets/bg-main-tablet.png");
@@ -56,20 +57,37 @@ header {
   margin-bottom: 146px;
 
   @include tablet {
+    width: 520px;
+    margin-left: 39px;
+
+    h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+      margin-bottom: 28px;
+    }
+
     .bg-image-container {
       display: unset; //makes it visible again
       position: absolute;
+
       left: 537px;
       top: -32px;
       img {
         width: 266.67px;
         height: 400px;
+        overflow: hidden;
       }
+    }
+
+    .logo {
+      margin: 61.99px 0px 95px 0px;
+      width: 146px;
     }
   }
 }
 
 main {
+  margin: 0 auto;
   border-radius: 12px;
   .eq-in-action {
     background-color: $main-black;
