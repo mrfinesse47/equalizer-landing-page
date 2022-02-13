@@ -1,7 +1,7 @@
 h1,
 h2,
 p {
-  font-size: 1rem;
+  font-size: 1.12rem;
   line-height: 1.75rem;
   font-weight: 400;
   margin: 0;
@@ -12,6 +12,14 @@ p {
   h2,
   p {
     font-size: 1.125rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  h1,
+  h2,
+  p {
+    font-size: 1.25 rem;
   }
 }
 
@@ -39,6 +47,12 @@ body .container {
   body .container {
     width: 768px;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  body .container {
+    width: 1110px;
   }
 }
 

@@ -1,22 +1,18 @@
 @import "./variables.scss";
 @import "./media-queries.scss";
 
-//may have to take a multiple background image approach see
-//#example1 {
-//   background-image: url(img_flwr.gif), url(paper.gif);
-//   background-position: right bottom, left top;
-//   background-repeat: no-repeat, repeat;
-// }
-//https://www.w3schools.com/Css/css3_backgrounds.asp
-//didnt know you could have more than one
+//desktop is 1440px wide
 h1,
 h2,
 p {
-  font-size: 1rem;
+  font-size: 1.12rem;
   line-height: 1.75rem;
 
   @include tablet {
     font-size: 1.125rem;
+  }
+  @include desktop {
+    font-size: 1.25 rem;
   }
   font-weight: 400;
   margin: 0;
@@ -33,7 +29,6 @@ body {
   .container {
     width: 375px; //mobile
     margin: 0 auto;
-    //does not work for absolute positioning
   }
   @include tablet {
     .container {
@@ -46,6 +41,12 @@ body {
     background-position: left 537px top -32px, left -330px top -200px;
     background-size: 266.67px 400px, auto;
     background-repeat: no-repeat, no-repeat;
+  }
+
+  @include desktop {
+    .container {
+      width: 1110px;
+    }
   }
 }
 
