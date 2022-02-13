@@ -35,24 +35,23 @@ body {
     .container {
       width: 768px;
       // margin: 0 auto;
+      background-image: url("/assets/bg-pattern-1.svg"),
+        url("./assets/bg-main-tablet.png");
+      background-position: right -30px top -32px, left -330px top -200px;
+      background-size: 266.67px 400px, auto;
+      background-repeat: no-repeat, no-repeat;
     }
-
-    background-image: url("/assets/bg-pattern-1.svg"),
-      url("./assets/bg-main-tablet.png");
-    background-position: left 537px top -32px, left -330px top -200px;
-    background-size: 266.67px 400px, auto;
-    background-repeat: no-repeat, no-repeat;
   }
 
   @include desktop {
     .container {
       width: 1110px;
+      background-image: url("/assets/bg-pattern-1.svg"),
+        url("./assets/bg-main-desktop.png");
+      background-position: right -40px top 0px, left -330px top -200px;
+      background-size: 312px 468px, auto;
+      background-repeat: no-repeat, no-repeat;
     }
-    background-image: url("/assets/bg-pattern-1.svg"),
-      url("./assets/bg-main-desktop.png");
-    background-position: left 1128px top 0px, left -330px top -200px;
-    background-size: 312px 468px, auto;
-    background-repeat: no-repeat, no-repeat;
   }
 }
 
