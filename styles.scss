@@ -49,8 +49,8 @@ body {
       width: 1110px;
     }
     background-image: url("/assets/bg-pattern-1.svg"),
-      url("./assets/bg-main-tablet.png");
-    background-position: left 1128px top -34px, left -330px top -200px;
+      url("./assets/bg-main-desktop.png");
+    background-position: left 1128px top 0px, left -330px top -200px;
     background-size: 312px 468px, auto;
     background-repeat: no-repeat, no-repeat;
   }
@@ -169,7 +169,7 @@ aside {
     left: 36.41%;
   }
   @include desktop {
-    top: 950px;
+    top: 920px;
     left: 50.9%;
     width: 446px;
   }
@@ -178,6 +178,10 @@ aside {
     font-size: 2rem;
     font-weight: 700;
     margin: 48px 0px 12px;
+    @include desktop {
+      margin: 58px 0px 22px;
+      font-size: 2.5rem;
+    }
   }
   .premium-container {
     margin: 0 auto;
@@ -187,6 +191,9 @@ aside {
     display: flex;
     flex-direction: row;
     margin: 36px 8px;
+    @include desktop {
+      margin: 46px 8px;
+    }
     padding: 0.9rem 0;
 
     .dollar-amount {
@@ -297,6 +304,16 @@ footer {
       width: 366px;
       font-size: 1rem;
       margin-right: 359px;
+    }
+    .social {
+      display: flex;
+      align-items: center;
+
+      margin: 0;
+      img {
+        width: 20px;
+        height: 20px;
+      }
     }
   }
 }

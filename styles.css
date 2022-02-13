@@ -52,8 +52,8 @@ body .container {
 
 @media only screen and (min-width: 900px) {
   body {
-    background-image: url("/assets/bg-pattern-1.svg"), url("./assets/bg-main-tablet.png");
-    background-position: left 1128px top -34px, left -330px top -200px;
+    background-image: url("/assets/bg-pattern-1.svg"), url("./assets/bg-main-desktop.png");
+    background-position: left 1128px top 0px, left -330px top -200px;
     background-size: 312px 468px, auto;
     background-repeat: no-repeat, no-repeat;
   }
@@ -196,7 +196,7 @@ aside {
 
 @media only screen and (min-width: 900px) {
   aside {
-    top: 950px;
+    top: 920px;
     left: 50.9%;
     width: 446px;
   }
@@ -206,6 +206,13 @@ aside h2 {
   font-size: 2rem;
   font-weight: 700;
   margin: 48px 0px 12px;
+}
+
+@media only screen and (min-width: 900px) {
+  aside h2 {
+    margin: 58px 0px 22px;
+    font-size: 2.5rem;
+  }
 }
 
 aside .premium-container {
@@ -223,6 +230,12 @@ aside .price {
           flex-direction: row;
   margin: 36px 8px;
   padding: 0.9rem 0;
+}
+
+@media only screen and (min-width: 900px) {
+  aside .price {
+    margin: 46px 8px;
+  }
 }
 
 aside .price .dollar-amount {
@@ -378,6 +391,19 @@ footer .social img {
     width: 366px;
     font-size: 1rem;
     margin-right: 359px;
+  }
+  footer .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  footer .social img {
+    width: 20px;
+    height: 20px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
