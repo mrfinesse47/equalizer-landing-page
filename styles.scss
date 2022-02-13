@@ -245,8 +245,27 @@ footer {
       justify-content: space-between;
     }
   }
+
+  @include desktop {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    margin: 0;
+    top: 1662px;
+    padding-bottom: 91px;
+    .footer-container {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
   .logo {
     margin: 64px 0 32px;
+    @include desktop {
+      margin: 0;
+      width: 146.09px;
+      height: 32px;
+    }
   }
   .email {
     font-weight: 700;
@@ -271,6 +290,13 @@ footer {
         width: 20px;
         height: 20px;
       }
+    }
+  }
+  @include desktop {
+    .contact p {
+      width: 366px;
+      font-size: 1rem;
+      margin-right: 359px;
     }
   }
 }

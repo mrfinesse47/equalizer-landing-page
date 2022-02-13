@@ -305,8 +305,40 @@ footer {
   }
 }
 
+@media only screen and (min-width: 900px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 1110px;
+    margin: 0;
+    top: 1662px;
+    padding-bottom: 91px;
+  }
+  footer .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 footer .logo {
   margin: 64px 0 32px;
+}
+
+@media only screen and (min-width: 900px) {
+  footer .logo {
+    margin: 0;
+    width: 146.09px;
+    height: 32px;
+  }
 }
 
 footer .email {
@@ -338,6 +370,14 @@ footer .social img {
   footer .social img {
     width: 20px;
     height: 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  footer .contact p {
+    width: 366px;
+    font-size: 1rem;
+    margin-right: 359px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
