@@ -19,7 +19,7 @@ p {
   h1,
   h2,
   p {
-    font-size: 1.25 rem;
+    font-size: 1.25rem;
   }
 }
 
@@ -94,6 +94,17 @@ header h1 {
   header .logo {
     margin: 61.99px 0px 95px 0px;
     width: 146px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  header {
+    width: 70.4%;
+    margin-left: 11.4%;
+  }
+  header h1 {
+    font-size: 4.5rem;
+    line-height: 4.5rem;
   }
 }
 

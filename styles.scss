@@ -12,7 +12,7 @@ p {
     font-size: 1.125rem;
   }
   @include desktop {
-    font-size: 1.25 rem;
+    font-size: 1.25rem;
   }
   font-weight: 400;
   margin: 0;
@@ -87,6 +87,15 @@ header {
     .logo {
       margin: 61.99px 0px 95px 0px;
       width: 146px;
+    }
+  }
+  @include desktop {
+    width: 70.4%;
+    margin-left: 11.4%;
+
+    h1 {
+      font-size: 4.5rem;
+      line-height: 4.5rem;
     }
   }
 }
