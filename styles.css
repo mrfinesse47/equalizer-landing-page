@@ -283,10 +283,20 @@ aside .platforms .button-android {
   margin-bottom: 48px;
 }
 
+aside .platforms .button-android:hover {
+  background-color: #ffb964;
+  cursor: pointer;
+}
+
 aside .platforms .button-apple {
   background-color: #191826;
   color: #fcfaf9;
   margin-bottom: 16px;
+}
+
+aside .platforms .button-apple:hover {
+  background-color: #66e2dc;
+  cursor: pointer;
 }
 
 footer {
@@ -363,7 +373,9 @@ footer .social {
   margin-bottom: 80px;
 }
 
-footer .social img {
+footer .social svg {
+  width: 20px;
+  height: 20px;
   margin-right: 20px;
 }
 
@@ -405,5 +417,10 @@ footer .social img {
     width: 20px;
     height: 20px;
   }
+}
+
+footer svg:hover {
+  cursor: pointer;
+  fill: #fa7453 !important;
 }
 /*# sourceMappingURL=styles.css.map */
