@@ -137,7 +137,7 @@ aside {
 @media only screen and (min-width: 767px) and (max-width: 899px) {
   aside {
     top: 920px;
-    left: 35.41%;
+    left: 36.41%;
   }
 }
 
@@ -219,7 +219,7 @@ footer {
   position: absolute;
   color: #191826;
   margin: 0px 24px;
-  top: 1500px;
+  top: 1550px;
   width: 327px;
 }
 
@@ -227,6 +227,8 @@ footer {
   footer {
     width: 90.625%;
     margin: 0 4.68%;
+    top: 1500px;
+    padding-bottom: 86px;
   }
   footer .footer-container {
     display: -webkit-box;

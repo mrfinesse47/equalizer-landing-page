@@ -134,7 +134,7 @@ aside {
   width: 375px;
   @include tablet {
     top: 920px;
-    left: 35.41%;
+    left: 36.41%;
   }
 
   h2 {
@@ -195,11 +195,13 @@ footer {
   position: absolute;
   color: $main-black;
   margin: 0px 24px;
-  top: 1500px;
+  top: 1550px;
   width: 327px;
   @include tablet {
     width: 90.625%;
     margin: 0 4.68%;
+    top: 1500px;
+    padding-bottom: 86px;
     .footer-container {
       display: flex;
       flex-direction: row;
