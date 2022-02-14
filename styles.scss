@@ -32,6 +32,7 @@ body {
     margin: 0 auto;
   }
   @include tablet {
+    width: 768px;
     .container {
       width: 768px;
       // margin: 0 auto;
@@ -45,6 +46,7 @@ body {
   }
 
   @include desktop {
+    width: 1440px;
     .container {
       width: 1110px;
     }
