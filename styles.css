@@ -41,7 +41,7 @@ body .container {
 @media only screen and (min-width: 767px) and (max-width: 899px) {
   body {
     width: 768px;
-    background-image: url("/assets/bg-pattern-1.svg"), url("./assets/bg-main-tablet.png");
+    background-image: url("./assets/bg-pattern-1.svg"), url("./assets/bg-main-tablet.png");
     background-position: left 537px top -32px, left -330px top -200px;
     background-size: 266.67px 400px, auto;
     background-repeat: no-repeat, no-repeat;
@@ -54,7 +54,7 @@ body .container {
 @media only screen and (min-width: 900px) {
   body {
     width: 1440px;
-    background-image: url("/assets/bg-pattern-1.svg"), url("./assets/bg-main-desktop.png");
+    background-image: url("./assets/bg-pattern-1.svg"), url("./assets/bg-main-desktop.png");
     background-position: left 1128px top 0px, left -330px top -200px;
     background-size: 312px 468px, auto;
     background-repeat: no-repeat, no-repeat;
