@@ -27,7 +27,7 @@ p {
 body {
   font-family: "IBM Plex Sans", sans-serif;
   background-color: #f2f2f2;
-  margin: 0 auto;
+  margin: 0;
   background-image: url("./assets/bg-main-mobile.png");
   background-position: left 15px top -240px;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ main {
 
 @media only screen and (min-width: 767px) and (max-width: 899px) {
   main {
-    margin: 0px 2.14%;
+    margin: 0px 33px;
   }
 }
 
