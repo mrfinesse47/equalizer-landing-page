@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://mrfinesse47.github.io/equalizer-landing-page/)
+- Live Site URL: [Click Here](https://mrfinesse47.github.io/equalizer-landing-page/)
 
 ## My process
 
